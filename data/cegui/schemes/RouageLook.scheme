@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<GUIScheme version="5" name="RouageLook">
+	<Imageset filename="RouageLook.imageset" />
+	<Font filename="DejaVuSans-12.font" />
+	<LookNFeel filename="RouageLook.looknfeel" />
+	<WindowRendererSet filename="CEGUICoreWindowRendererSet" />
+
+	<FalagardMapping windowType="RouageLook/Label"       targetType="DefaultWindow"     renderer="Core/Default"      lookNFeel="RouageLook/Label" />
+	<FalagardMapping windowType="RouageLook/Button"      targetType="CEGUI/PushButton"  renderer="Core/Button"       lookNFeel="RouageLook/Button" />
+	<FalagardMapping windowType="RouageLook/Checkbox"    targetType="CEGUI/ToggleButton"    renderer="Core/ToggleButton" lookNFeel="RouageLook/Checkbox" />
+	<FalagardMapping windowType="RouageLook/ImageButton" targetType="CEGUI/PushButton"  renderer="Core/Button"       lookNFeel="RouageLook/ImageButton" />
+	<FalagardMapping windowType="RouageLook/RadioButton" targetType="CEGUI/RadioButton" renderer="Core/ToggleButton" lookNFeel="RouageLook/RadioButton" />
+	<FalagardMapping windowType="RouageLook/FrameWindow"  targetType="CEGUI/FrameWindow" renderer="Core/FrameWindow"  lookNFeel="RouageLook/FrameWindow" />
+	<FalagardMapping windowType="RouageLook/Titlebar"     targetType="CEGUI/Titlebar"    renderer="Core/Titlebar"     lookNFeel="RouageLook/Titlebar" />
+	<FalagardMapping windowType="RouageLook/Editbox"          targetType="CEGUI/Editbox"          renderer="Core/Editbox"          lookNFeel="RouageLook/Editbox" />
+	<FalagardMapping windowType="RouageLook/EditboxMinimalist"          targetType="CEGUI/Editbox"          renderer="Core/Editbox"          lookNFeel="RouageLook/EditboxMinimalist" />
+	<FalagardMapping windowType="RouageLook/MultiLineEditbox" targetType="CEGUI/MultiLineEditbox" renderer="Core/MultiLineEditbox" lookNFeel="RouageLook/MultiLineEditbox" />
+	<FalagardMapping windowType="RouageLook/Menubar"   targetType="CEGUI/Menubar"   renderer="Core/Menubar"   lookNFeel="RouageLook/Menubar" />
+	<FalagardMapping windowType="RouageLook/PopupMenu" targetType="CEGUI/PopupMenu" renderer="Core/PopupMenu" lookNFeel="RouageLook/PopupMenu" />
+	<FalagardMapping windowType="RouageLook/MenuItem"  targetType="CEGUI/MenuItem"  renderer="Core/MenuItem"  lookNFeel="RouageLook/MenuItem" />
+	<FalagardMapping windowType="RouageLook/AlternateProgressBar" targetType="CEGUI/ProgressBar" renderer="Core/ProgressBar" lookNFeel="RouageLook/AltProgressBar" />
+	<FalagardMapping windowType="RouageLook/ProgressBar"          targetType="CEGUI/ProgressBar" renderer="Core/ProgressBar" lookNFeel="RouageLook/ProgressBar" />
+	<FalagardMapping windowType="RouageLook/VUMeter"              targetType="CEGUI/ProgressBar" renderer="Core/ProgressBar" lookNFeel="RouageLook/VUMeter" />
+	<FalagardMapping windowType="RouageLook/VerticalScrollbar"   targetType="CEGUI/Scrollbar" renderer="Core/Scrollbar" lookNFeel="RouageLook/VerticalScrollbar" />
+	<FalagardMapping windowType="RouageLook/HorizontalScrollbar" targetType="CEGUI/Scrollbar" renderer="Core/Scrollbar" lookNFeel="RouageLook/HorizontalScrollbar" />
+	<FalagardMapping windowType="RouageLook/VerticalScrollbarThumb"   targetType="CEGUI/Thumb" renderer="Core/Button" lookNFeel="RouageLook/VerticalScrollbarThumb" />
+	<FalagardMapping windowType="RouageLook/HorizontalScrollbarThumb" targetType="CEGUI/Thumb" renderer="Core/Button" lookNFeel="RouageLook/HorizontalScrollbarThumb" />
+	<FalagardMapping windowType="RouageLook/LargeVerticalScrollbar"      targetType="CEGUI/Scrollbar" renderer="Core/Scrollbar" lookNFeel="RouageLook/LargeVerticalScrollbar" />
+	<FalagardMapping windowType="RouageLook/LargeVerticalScrollbarThumb" targetType="CEGUI/Thumb"     renderer="Core/Button"    lookNFeel="RouageLook/LargeVerticalScrollbarThumb" />
+	<FalagardMapping windowType="RouageLook/TabButton"  targetType="CEGUI/TabButton"  renderer="Core/TabButton"  lookNFeel="RouageLook/TabButton" />
+	<FalagardMapping windowType="RouageLook/TabControl" targetType="CEGUI/TabControl" renderer="Core/TabControl" lookNFeel="RouageLook/TabControl" />
+	<FalagardMapping windowType="RouageLook/TabContentPane"    targetType="DefaultWindow"    renderer="Core/Default"    lookNFeel="RouageLook/TabContentPane" />
+	<FalagardMapping windowType="RouageLook/TabButtonPane"    targetType="DefaultWindow"    renderer="Core/Default"    lookNFeel="RouageLook/TabButtonPane" />
+	<FalagardMapping windowType="RouageLook/ComboDropList" targetType="CEGUI/ComboDropList" renderer="Core/Listbox" lookNFeel="RouageLook/ComboDropList" />
+	<FalagardMapping windowType="RouageLook/ComboEditbox"  targetType="CEGUI/Editbox"	 renderer="Core/Editbox" lookNFeel="RouageLook/ComboEditbox" />
+	<FalagardMapping windowType="RouageLook/Combobox" targetType="CEGUI/Combobox"	 renderer="Core/Default" lookNFeel="RouageLook/Combobox" />
+	<FalagardMapping windowType="RouageLook/Listbox"           targetType="CEGUI/Listbox"           renderer="Core/Listbox"           lookNFeel="RouageLook/Listbox" />
+	<FalagardMapping windowType="RouageLook/ListHeader"        targetType="CEGUI/ListHeader"        renderer="Core/ListHeader"        lookNFeel="RouageLook/ListHeader" />
+	<FalagardMapping windowType="RouageLook/ListHeaderSegment" targetType="CEGUI/ListHeaderSegment" renderer="Core/ListHeaderSegment" lookNFeel="RouageLook/ListHeaderSegment" />
+	<FalagardMapping windowType="RouageLook/MultiColumnList"   targetType="CEGUI/MultiColumnList"   renderer="Core/MultiColumnList"   lookNFeel="RouageLook/MultiColumnList" />
+	<FalagardMapping windowType="RouageLook/Slider"      targetType="CEGUI/Slider"      renderer="Core/Slider"  lookNFeel="RouageLook/Slider" />
+	<FalagardMapping windowType="RouageLook/SliderThumb" targetType="CEGUI/Thumb" renderer="Core/Button"  lookNFeel="RouageLook/SliderThumb" />
+	<FalagardMapping windowType="RouageLook/ScrollablePane" targetType="CEGUI/ScrollablePane" renderer="Core/ScrollablePane" lookNFeel="RouageLook/ScrollablePane" />
+	<FalagardMapping windowType="RouageLook/Spinner" targetType="CEGUI/Spinner" renderer="Core/Default" lookNFeel="RouageLook/Spinner" />
+	<FalagardMapping windowType="RouageLook/Tooltip" targetType="CEGUI/Tooltip" renderer="Core/Tooltip" lookNFeel="RouageLook/Tooltip" />
+	<FalagardMapping windowType="RouageLook/StaticImage" targetType="DefaultWindow" renderer="Core/StaticImage" lookNFeel="RouageLook/StaticImage" />
+	<FalagardMapping windowType="RouageLook/StaticText"  targetType="DefaultWindow" renderer="Core/StaticText"  lookNFeel="RouageLook/StaticText" />
+	<FalagardMapping windowType="RouageLook/ItemListbox" targetType="CEGUI/ItemListbox" renderer="Core/ItemListbox" lookNFeel="RouageLook/ItemListbox" />
+	<FalagardMapping windowType="RouageLook/ListboxItem" targetType="CEGUI/ItemEntry"   renderer="Core/ItemEntry"   lookNFeel="RouageLook/ListboxItem" />
+	<FalagardMapping windowType="RouageLook/GroupBox" targetType="DefaultWindow"   renderer="Core/Default"   lookNFeel="RouageLook/GroupBox" />
+      <FalagardMapping windowType="RouageLook/Tree" targetType="CEGUI/Tree"   renderer="Core/Tree"   lookNFeel="RouageLook/Tree" />
+</GUIScheme>
+

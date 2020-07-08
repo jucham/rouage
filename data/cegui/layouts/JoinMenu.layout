@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="DefaultWindow" name="JoinMenuWindow" >
+        <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Window type="RouageLook/Button" name="Join" >
+            <Property name="Area" value="{{0,0},{0,0},{0.2,0},{0.1,0}}" />
+            <Property name="Text" value="Join" />
+            <Property name="HorizontalAlignment" value="Centre" />
+        </Window>
+        <Window type="RouageLook/Editbox" name="ServerAddress" >
+            <Property name="Area" value="{{0,0},{0,0},{0.3,0},{0.05,0}}" />
+            <Property name="Font" value="DejaVuSans-12" />
+            <Property name="HorizontalAlignment" value="Centre" />
+        </Window>
+    </Window>
+</GUILayout>

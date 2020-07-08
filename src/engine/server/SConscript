@@ -1,0 +1,6 @@
+# --- Server Script ---
+Import('env')
+src = ['Server.cpp']
+server = env.Program(src)
+env.InstallAs('#bin/release/server.exe', server)
+env.Alias('Server', '#bin/release')

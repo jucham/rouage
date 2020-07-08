@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="DefaultWindow" name="ExitMenuWindow" >
+        <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Window type="RouageLook/Label" name="Question" >
+            <Property name="Area" value="{{0,0},{0,0},{0.3,0},{0.1,0}}" />
+            <Property name="Text" value="Are you sure to exit ?" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="HorizontalAlignment" value="Centre" />
+        </Window>
+        <Window type="RouageLook/Button" name="Yes" >
+            <Property name="Area" value="{{0,0},{0,0},{0.2,0},{0.1,0}}" />
+            <Property name="Text" value="Yes" />
+            <Property name="HorizontalAlignment" value="Centre" />
+        </Window>
+        <Window type="RouageLook/Button" name="No" >
+            <Property name="Area" value="{{0,0},{0,0},{0.2,0},{0.1,0}}" />
+            <Property name="Text" value="No" />
+            <Property name="HorizontalAlignment" value="Centre" />
+        </Window>
+    </Window>
+</GUILayout>

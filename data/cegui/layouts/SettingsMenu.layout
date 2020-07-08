@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="DefaultWindow" name="SettingsWindow" >
+        <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Window type="RouageLook/TabControl" name="TabControl" >
+            <Property name="Area" value="{{0,0},{0.1,0},{0.4,0},{0.6,0}}" />
+            <Property name="Margin" value="{top:{0.1,0},left:{0,0},bottom:{0,0},right:{0,0}}" />
+            <Property name="TabHeight" value="{0,-1}" />
+            <Property name="VerticalAlignment" value="Centre" />
+            <Property name="HorizontalAlignment" value="Centre" />
+            <AutoWindow namePath="__auto_TabPane__" >
+                <Property name="EnableBottom" value="1" />
+            </AutoWindow>
+            <AutoWindow namePath="__auto_TabPane__Buttons" >
+                <Property name="EnableTop" value="0" />
+            </AutoWindow>
+            <AutoWindow namePath="__auto_TabPane__ScrollLeft" >
+                <Property name="Visible" value="False" />
+            </AutoWindow>
+            <AutoWindow namePath="__auto_TabPane__ScrollRight" >
+                <Property name="Visible" value="False" />
+            </AutoWindow>
+        </Window>
+    </Window>
+</GUILayout>

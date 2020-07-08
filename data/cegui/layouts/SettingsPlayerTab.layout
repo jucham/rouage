@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="DefaultWindow" name="SettingsPlayerWindow" >
+        <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Property name="VerticalAlignment" value="Centre" />
+        <Property name="HorizontalAlignment" value="Centre" />
+        <Window type="DefaultWindow" name="Hbox" >
+            <Property name="Area" value="{{0,1},{0,0},{0.8,1},{0.5,0}}" />
+            <Property name="Font" value="DejaVuSans-12" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="VerticalAlignment" value="Centre" />
+            <Property name="HorizontalAlignment" value="Centre" />
+            <Window type="RouageLook/Editbox" name="PlayerName" >
+                <Property name="Area" value="{{0.2,1},{0,0},{0.85,1},{0.2,0}}" />
+                <Property name="Font" value="DejaVuSans-12" />
+            </Window>
+            <Window type="RouageLook/Label" name="Label" >
+                <Property name="Area" value="{{0,0},{0,0},{0.2,0},{0.2,0}}" />
+                <Property name="Font" value="DejaVuSans-12" />
+                <Property name="Text" value="Name" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

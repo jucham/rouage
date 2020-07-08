@@ -1,0 +1,6 @@
+open server.local
+rouage
+rouage
+binary
+put rouage-windows-*.zip
+quit

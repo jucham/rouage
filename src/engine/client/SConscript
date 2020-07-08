@@ -1,0 +1,6 @@
+# --- Client Script ---
+Import('env')
+src = ['Client.cpp']
+client = env.Program(src)
+env.InstallAs('#bin/release/client.exe', client)
+env.Alias('Client', '#bin/release')

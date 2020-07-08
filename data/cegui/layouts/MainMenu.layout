@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="DefaultWindow" name="MainMenuWindow" >
+        <Property name="Area" value="{{0,1},{0,0},{1,1},{1,0}}" />
+        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Window type="RouageLook/Button" name="JoinGame" >
+            <Property name="Area" value="{{0,0},{0,0},{0.2,0},{0.1,0}}" />
+            <Property name="Text" value="Join Game" />
+            <Property name="HorizontalAlignment" value="Centre" />
+        </Window>
+        <Window type="RouageLook/Button" name="ExitGame" >
+            <Property name="Area" value="{{0,0},{0,0},{0.2,0},{0.1,0}}" />
+            <Property name="Text" value="Exit Game" />
+            <Property name="HorizontalAlignment" value="Centre" />
+        </Window>
+        <Window type="RouageLook/Button" name="Settings" >
+            <Property name="Area" value="{{0,0},{0,0},{0.2,0},{0.1,0}}" />
+            <Property name="Text" value="Settings" />
+            <Property name="HorizontalAlignment" value="Centre" />
+        </Window>
+    </Window>
+</GUILayout>
